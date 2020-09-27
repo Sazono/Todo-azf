@@ -1,0 +1,167 @@
+body {
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+a, li {
+	color: black;
+	text-decoration: none;
+	list-style: none; /* маркер, точки */
+}
+
+.head {
+	display: flex;
+	width: 100%;
+	height: 50px;
+
+	background-color: #f1f3f5;
+}
+
+.logo {
+ 	display: flex;
+ 	width: 300px;
+ 	border-right: 3px solid white;
+}
+
+.logo-img {
+	width: 50px;
+	padding-top: 10px;
+	margin-left: 15px;
+}
+
+.logo-title {
+	width: 200px;
+	padding-top: 12px;
+	padding-left: 15px;
+}
+
+.navigation {
+	display: flex;
+	width: 100%;
+}
+
+.navigation-links {
+	display: flex;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation-login {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+.navigation-links a {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	padding: 0 20px;
+}
+
+.navigation-login a {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	padding: 0 20px;
+}
+
+.navigation-links a:hover,
+.navigation-links a:focus,
+.navigation-login a:hover,
+.navigation-login a:focus {
+	background-color: #e8e8e8;
+}
+
+.ava {
+	width: 35px; 
+	border-radius: 50px;
+	margin: 7px 10px 0 0; 
+}
+
+
+
+/* _____________________   Колонки   ________________________ */
+
+.container {
+	
+}
+
+.column {
+	display: flex;
+	justify-content: space-between;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	padding-left: 15px;
+}
+
+.tasks {
+	
+	width: 500px;
+	margin: 20px 0;
+	margin-right: 15px;
+
+	border-collapse: collapse;
+	border-radius: 5px;
+
+	background-color: #f1f3f5;	
+}
+
+.tasks-headline {
+	padding: 10px 20px;
+
+	text-transform: uppercase;
+	color: gray;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.task {
+	background-color: #ffffff;	
+	margin: 5px;
+	padding: 5px 10px;
+	border-radius: 3px;
+
+	font-size: 15px;
+}
+
+.task:hover {
+	border-right: 2px solid lightgray;
+	border-bottom: 2px solid lightgray;
+}
+
+.status-1 {
+	color: red;
+	font-size: 11px;
+}
+
+.status-2 {
+	color: orange;
+	font-size: 11px;
+}
+
+.status-3 {
+	color: gray;
+	font-size: 11px;
+}
+
+.task-date {
+	color: lightgray;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+

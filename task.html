@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Задача</title>
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style-task.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	</head>
+	
+	<body>
+		<div class="form-content">
+			
+			<form class="form-status" method="get">
+			     <label>
+			     Статус:
+			     <select class="select-status" name="status">
+			        <option value="turn">В очереди</option>
+			        <option value="work">В работе</option>
+			        <option value="rework">Требуется доработки</option>
+			        <option value="checked">На проверке</option>
+			        <option value="done">Сделано</option>
+	      		</select>
+	      		<button>Сохранить</button>
+	      		<button class="delet"><i class="fas fa-trash"></i></button>
+	      		<button class="changeTask">Редактировать</button>
+	      		</label>
+    		</form>
+
+    		<form class="form-time" method="get">
+    			Затраченное время: 
+    			<label>
+    			<input class="input-time" type="text" name="time">
+    			<button>Зафиксировать</button>
+    			</label>
+    			<div><p><b>Общее время задачи: </b>26 часов</p></div>
+    		</form>
+		
+			<div class="name-task">
+    		<p><b>Название:</b> Починить форму отправки</p>
+    		<p><b>Описание:</b> Сделать так чтобы все работало как раньше, только еще лучше. Ссылка на фотографию, ссылка на форму, ссылка на таблицу.</p>
+			</div>
+
+    		<b>Чат:</b>
+    		<br>
+    		<div class="chat">
+    			Дмитрий: Привет<br>
+    			Никита: Здравствуйте :)<br>
+    		</div>
+    		<label>
+    		<input class="input-massage" type="text" name="message" placeholder="Напишите сообщение...">
+    		<button>Отправить</button>
+    		</label>
+
+
+		</div>			
+	</body>
+</html>

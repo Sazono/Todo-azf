@@ -1,0 +1,122 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 20px 0; 
+}
+
+ 
+.form-content { 
+  max-width: 700px;
+
+  padding: 30px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+
+  background: #fff;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+input[type=submit]  {
+  width: 200px;
+
+  padding: 15px 20px;
+  margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: none;
+  border-radius: 5px;
+  outline: none;
+
+  background-color: #56baed;
+}
+
+input[type=submit]:hover {
+  background-color: #39ace7;
+  outline: none;
+}
+
+input[type=text], input[type=textarea] {
+  display: inline-block;
+
+  padding: 15px 15px;
+
+  text-decoration: none;
+  color: #0d0d0d;
+  font-size: 14px;
+
+  border: 2px solid #efefef;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+
+  background-color: #f6f6f6;
+}
+
+
+input[type=text]:focus {
+  background-color: #fff;
+  outline: none;
+}
+
+input[type=text]:placeholder {
+  color: #cccccc;
+}
+
+textarea:focus {
+  background-color: #fff;
+  outline: none;
+}
+
+textarea:placeholder {
+  color: #cccccc;
+}
+
+label {
+  margin: 15px 0 10px 0;
+}
+
+textarea {
+  height: 150px;
+  padding: 15px 15px;
+
+  text-decoration: none;
+  color: #0d0d0d;
+  font-size: 14px;
+
+  border: 2px solid #efefef;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+
+  background-color: #f6f6f6;
+}
+
+
+
+
+
+
